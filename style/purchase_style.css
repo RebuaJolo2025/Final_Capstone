@@ -1,0 +1,89 @@
+/* Purchase Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #e1eec3);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #00C864;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 10px;
+}
+
+.purchase-container {
+    max-width: 600px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.product-info p {
+    margin: 5px 0 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="number"],
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fafafa;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #00C864;
+    outline: none;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.buy-now {
+    padding: 12px;
+    background-color: #00C864;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #00b159;
+}
