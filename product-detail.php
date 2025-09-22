@@ -224,7 +224,7 @@ mysqli_close($conn);
 
     function buyNow(productId) {
         let qty = document.getElementById("quantity").value;
-        window.location.href = "checkout.php?product_id=" + productId + "&qty=" + qty;
+        window.location.href = "buy_now.php?product_id=" + productId + "&qty=" + qty;
     }
 </script>
 
